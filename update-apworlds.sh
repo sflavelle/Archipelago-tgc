@@ -81,6 +81,15 @@ update_prompt "Final Fantasy Tactics Advance" "spicynun/Archipelago" ffta
 # update Risk of Rain
 update_prompt "Risk of Rain" "studkid/RoR_Archipelago" ror1
 
+# update Hatsune Miku: Project DIVA Mega Mix+
+update_prompt "Hatsune Miku: Project Diva Mega Mix+" "Cynichill/DivaAPworld" megamix
+
+
+update_prompt "Lethal Company" "T0r1nn/APLC" lethal_company
+
+# update Psychonauts
+update_prompt "Psychonauts" "Akashortstack/Psychonauts_AP" psychonauts
+
 # update OpenRCT2
 read -p "Update OpenRCT2? " ver_rct2
 [ -n "$ver_rct2" ] && pushd /srv/APBranches/OpenRCT2 && git pull && popd
